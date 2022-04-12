@@ -20,6 +20,7 @@
 
 .a_1_3 img {
     padding: 50px;
+    cursor: pointer;
 }
 
 .a_1_4 {
@@ -33,7 +34,7 @@
 
 .a_1_y {
     display: flex;
-    margin-right: 100px;
+    margin-left: -200px;
 }
 
 .a_x_y {
@@ -52,18 +53,59 @@
 }
 
 .a_1_x {
-    padding-right: 20px;
+    margin: 55px 10px 0 0;
 }
 
 .a_1_x a {
-    padding: 0 5px;
-}
-
-.a_1_x a img {
-    width: 35px;
-    height: 30px;
     border-radius: 100%;
     background-color: #0099cc;
     position: relative;
-    margin: 50px 0;
+    padding: 5px 5px;
+}
+
+
+/* .....next..... */
+
+.b_13 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+}
+
+.b_13 ul {
+    display: flex;
+    list-style: none;
+}
+
+.b_13 ul li {
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.b_13 ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.b_13 ul li a:hover {
+    text-decoration: underline;
+}
+
+.carousel-item img {
+    background-size: cover;
+}
+
+.carousel-caption {
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    text-align: left;
+}
+
+.cont {
+    position: absolute;
+    color: white;
 }
