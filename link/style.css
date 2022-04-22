@@ -96,16 +96,56 @@
 
 .carousel-item img {
     background-size: cover;
-}
-
-.carousel-caption {
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    text-align: left;
+    top: 200px;
+    left: -150px;
 }
 
 .cont {
-    position: absolute;
     color: white;
+    top: 200px;
+    left: 200px;
+    position: absolute;
+}
+
+.cont .but {
+    margin-top: 50px;
+}
+
+.cont .but a {
+    text-decoration: none;
+}
+
+.cont .but a:hover {
+    text-decoration: underline;
+}
+
+.cont .but a:first-child {
+    background-color: #fff;
+    padding: 18px 30px;
+    color: black;
+}
+
+.cont .but a:last-child {
+    background-color: #cc6633;
+    padding: 18px 30px;
+    color: black;
+    margin-left: 20px
+}
+
+.full {
+    background-image: url(../image/hero-bg.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.con h1 {
+    color: white;
+}
+
+.full button {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
 }
